@@ -10,6 +10,8 @@
 
 > Glob pattern used by vscode, it's totally copied from vscode source code since there is no way to make same glob pattern especially for vscode extensions development.
 
+Ref: https://code.visualstudio.com/docs/editor/glob-patterns
+
 ## Install
 
 ```bash

@@ -1,11 +1,11 @@
-describe('index', () => {
-  describe('myPackage', () => {
-    it('should return a string containing the message', () => {
-      const message = 'Hello';
+import { match } from "../src/glob";
 
-      const result = message;
+describe('vscode-glob', () => {
+  describe('glob', () => {
+    it('should match the glob pattern', () => {
+      const matched = match('src/**', 'src/main.cpp');
 
-      expect(result).toMatch(message);
+      expect(matched).toBe(true);
     });
   });
 });
